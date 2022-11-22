@@ -1,4 +1,5 @@
 #include <iostream>
+	//time complexity of O(n^2)
 
 #include <vector>
 using namespace std;
@@ -29,6 +30,8 @@ int array[] = {1,2,3,5,6,23};
 
 
 MyClass obj;
+	
+	//time complexity of O(n^2)
 
 cout<<obj.BinarySearch(array, 6)<<endl;
 
