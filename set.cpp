@@ -12,10 +12,16 @@ while(i<10){
 s.insert(i);
 i++;
 }
-
 print<<s.count(4);
 s.erase(10);
 for(auto x: s){
 print<<x<<endl;
 }
+
+return 0;
 }
+
+
+//declaring set array
+
+
